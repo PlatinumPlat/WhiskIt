@@ -1,23 +1,23 @@
-Page Layouts:
+# Page Layouts
 Navbar (round, dark colours - blue / black) {dashboard, explore, whisk}
 Title (Fascinate Inline, All CAPS)
 Description (Karla)
 Text...
 
-Dashboard:
+# Dashboard
 Navbar
 Title {Homepage}
-Description {}
+Description {}  
 Text...
 
-Explore:
+# Explore
 Navbar
 Title {}
 Description {}
 Text...
 
-Whisk:
-Navbar
+# Whisk
+- Navbar
 Title {Homepage}
 Description {}
 Text...
