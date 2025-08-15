@@ -1,0 +1,24 @@
+Page Layouts:
+Navbar (round, dark colours - blue / black) {dashboard, explore, whisk}
+Title (Fascinate Inline, All CAPS)
+Description (Karla)
+Text...
+
+Dashboard:
+Navbar
+Title {Homepage}
+Description {}
+Text...
+
+Explore:
+Navbar
+Title {}
+Description {}
+Text...
+
+Whisk:
+Navbar
+Title {Homepage}
+Description {}
+Text...
+
