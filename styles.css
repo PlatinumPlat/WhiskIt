@@ -8,12 +8,16 @@
     text-align: center;
     margin-top: 3%;
     width: 70%;
-    height: 70px;
+    height: 100px;
     justify-self: center;
     border-radius: 30px;
     border-color: #080A2C;
     border-width: 5px;
     border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
 
 .topnavtext {
@@ -31,12 +35,11 @@
 }
 
 .topnav a {
-    float: left;
     color: #4E5180;
     margin-right: 25px;
     margin-left: 25px;
     text-align: center;
-    padding: 3% 10% 3% 10%;
+    padding: 10px 10px 10px 10px;
     text-decoration: none;
     border-width: 3px;
     border-style: solid transparent;
@@ -83,9 +86,40 @@ h1 {
     color: #494c73;
 }
 
+h2 {
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #494c73;
+}
+
+h3 {
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #494c73;
+}
+
 p {
     font-family: "Karla", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #F4F3EE;
+    color: #494c73;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    border-color: #111116;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 40px;
+    width: 70%;
+    justify-self: center;
 }
