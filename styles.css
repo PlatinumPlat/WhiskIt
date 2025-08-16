@@ -165,7 +165,8 @@ button:hover {
     gap: 20px;
 }
 
-.cookingRecipes, .bakingRecipes {
+.cookingRecipes,
+.bakingRecipes {
     background-color: #4E5180;
     border-color: #454C48;
     border-width: 2px;
@@ -182,4 +183,32 @@ button:hover {
     color: #F4F3EE;
     white-space: normal;
     word-break: break-word;
+}
+
+#responseContainer {
+    margin-top: 20px;
+    padding: 10px;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#submitButton {
+    size: 70%;
+    font-size: 26px;
+}
+
+textarea {
+    padding: 10px;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border-color: #454C48;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
 }
