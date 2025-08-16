@@ -70,7 +70,6 @@
 }
 
 .content {
-    line-height: 1.5px;
     max-inline-size: 85%;
     writing-mode: horizontal-tb;
 }
@@ -136,7 +135,57 @@ button {
 
 }
 
+button.active {
+    background-color: #494c73;
+    color: #F4F3EE;
+}
+
+button.inactive {
+    color: #080A2C;
+    background-color: transparent;
+    color: #111116
+}
+
 button:hover {
     background-color: #494c73;
     color: #F4F3EE;
+}
+
+.recipecontainer {
+    width: 90%;
+    background-color: #E7E7E7;
+    box-shadow: 1px 1px 1px 1px #494c73;
+    border-color: #454C48;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 40px;
+    padding: 8%;
+}
+
+.cookingRecipes {
+    background-color: #4E5180;
+    border-color: #454C48;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 30px;
+    color: #F4F3EE;
+    padding: 3%;
+    margin: 10px;
+}
+
+.bakingRecipes {
+    background-color: #4E5180;
+    border-color: #454C48;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 30px;
+    color: #F4F3EE;
+    padding: 3%;
+    margin: 10px;
+}
+
+.exploretitle {
+    color: #F4F3EE;
+    white-space: normal;
+    word-break: break-word;
 }
