@@ -160,9 +160,12 @@ button:hover {
     border-style: solid;
     border-radius: 40px;
     padding: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-.cookingRecipes {
+.cookingRecipes, .bakingRecipes {
     background-color: #4E5180;
     border-color: #454C48;
     border-width: 2px;
@@ -171,17 +174,8 @@ button:hover {
     color: #F4F3EE;
     padding: 3%;
     margin: 10px;
-}
-
-.bakingRecipes {
-    background-color: #4E5180;
-    border-color: #454C48;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 30px;
-    color: #F4F3EE;
-    padding: 3%;
-    margin: 10px;
+    flex: 1 1 300px;
+    max-width: 400px;
 }
 
 .exploretitle {
