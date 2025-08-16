@@ -1,5 +1,9 @@
 .body {
     background-color: #F4F3EE;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .topnav {
@@ -100,11 +104,24 @@ h3 {
     color: #494c73;
 }
 
-p {
+#welcomeback {
+    color: #6087ae;
+}
+
+ul {
+    list-style-image: url('purplebullet.png');
+    list-style-type: square;
+}
+
+p,
+li,
+pre {
     font-family: "Karla", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    padding-left: 5px;
+    margin-bottom: 10px;
 }
 
 footer {
@@ -167,6 +184,22 @@ button:hover {
     gap: 20px;
 }
 
+#output {
+    border-color: #4E5180;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 28px;
+    padding: 3%;
+    margin: 10px;
+    max-width: 370px;
+    text-align: left;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #494c73;
+    overflow: auto;
+}
+
 .cookingRecipes,
 .bakingRecipes {
     background-color: #4E5180;
@@ -201,7 +234,8 @@ button:hover {
     font-size: 26px;
 }
 
-textarea, input {
+textarea,
+input {
     padding: 10px;
     font-family: "Karla", sans-serif;
     font-optical-sizing: auto;

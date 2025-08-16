@@ -1,12 +1,16 @@
 document.addEventListener('DOMContentLoaded', () => {
     const promptInput = document.getElementById('promptInput');
     const submitButton = document.getElementById('submitButton');
-
-    const GROQ_API_KEY = 'your api key goes here :)';
-
+    const responseContainer = document.getElementById('responseContainer');
+    let GROQ_API_KEY;
     submitButton.addEventListener('click', async () => {
         const promptTest = promptInput.value;
-        if (promptTest=='') {
+        GROQ_API_KEY = document.getElementById('groq').value || '';
+        if (GROQ_API_KEY == '') {
+            responseContainer.textContent = 'Enter your API key!';
+            return;
+        }
+        if (promptTest == '') {
             responseContainer.textContent = 'Please type in your ingredients and dietary restrictions.';
             return;
         }
@@ -15,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         responseContainer.textContent = 'Loading...';
 
         try {
-            const response = await fetch('https://api.openai.com/v1/images/generations', {
+            const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

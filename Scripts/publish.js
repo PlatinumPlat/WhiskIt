@@ -9,7 +9,7 @@ function loadRecipes() {
         card.className = `recipe ${r.type}Recipes`;
         card.innerHTML = `
             <h2 class="exploretitle">${r.title}</h2>
-            <p>${r.desc}</p>
+            <p><pre>${r.desc}</pre></p>
             <p><em>Type: ${r.type}</em></p>
             <button onclick="deleteRecipe(${index})">Delete</button>
             `;
