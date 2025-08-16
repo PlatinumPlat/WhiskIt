@@ -201,7 +201,7 @@ button:hover {
     font-size: 26px;
 }
 
-textarea {
+textarea, input {
     padding: 10px;
     font-family: "Karla", sans-serif;
     font-optical-sizing: auto;
