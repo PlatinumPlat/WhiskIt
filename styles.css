@@ -11,7 +11,7 @@
     height: 100px;
     justify-self: center;
     border-radius: 30px;
-    border-color: #080A2C;
+    border-color: #454C48;
     border-width: 5px;
     border-style: solid;
     display: flex;
@@ -48,7 +48,7 @@
 
 .topnav a:hover {
     background-color: #4E5180;
-    border-color: #494c73;
+    border-color: #454C48;
     border-radius: 25px;
     border-width: 3px;
     border-style: solid;
@@ -59,23 +59,20 @@
 .pagecontainer {
     width: 80%;
     justify-self: center;
-    background-color: #F4F3EE;
+    background-color: #E7E7E7;
     box-shadow: 1px 1px 1px 1px #494c73;
-    border-color: #111116;
+    border-color: #454C48;
     border-width: 5px;
     border-style: solid;
     border-radius: 40px;
     padding: 8%;
-    margin: 80px;
-    margin-bottom: 30px;
+    margin: 5%;
 }
 
 .content {
     line-height: 1.5px;
     max-inline-size: 85%;
     writing-mode: horizontal-tb;
-    margin-left: 5%;
-    justify-self: center;
 }
 
 h1 {
@@ -122,4 +119,24 @@ footer {
     border-radius: 40px;
     width: 70%;
     justify-self: center;
+}
+
+button {
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-size: 150%;
+    text-align: center;
+    font-style: normal;
+    padding: 10px;
+    color: #080A2C;
+    border-radius: 10% 30% 50% 70%;
+    transition: 0.3s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+button:hover {
+    background-color: #494c73;
+    color: #F4F3EE;
 }
