@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         responseContainer.textContent = 'Loading...';
 
         try {
-            const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+            const response = await fetch('https://api.openai.com/v1/images/generations', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
