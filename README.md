@@ -20,7 +20,8 @@ Here are all the instructions you need to access WhiskIt!
 - Stability AI API
 
 # Devpost
-Here: https://devpost.com/software/whiskit-hynlw2
+View more information about our project/project journey!
+Link Here: https://devpost.com/software/whiskit-hynlw2
 
 # Credits
 Created with 💖 by Sophia and Olivia Pu (Iggy Minions)
