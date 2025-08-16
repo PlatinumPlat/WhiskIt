@@ -8,7 +8,7 @@
     text-align: center;
     margin-top: 3%;
     width: 70%;
-    height: 100px;
+    height: 130px;
     justify-self: center;
     border-radius: 30px;
     border-color: #454C48;
@@ -21,8 +21,10 @@
 }
 
 .topnavtext {
-    display: inline-block;
+    display: flex;
     position: relative;
+    justify-content: center;
+    align-items: center;
     padding-top: 1%;
     padding-bottom: 1%;
     text-align: center;
