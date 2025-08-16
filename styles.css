@@ -139,6 +139,10 @@ footer {
     justify-self: center;
 }
 
+.recipe, .cookingRecipes, .bakingRecipes {
+    overflow: auto;
+}
+
 button {
     font-family: "Dongle", sans-serif;
     font-weight: 400;
