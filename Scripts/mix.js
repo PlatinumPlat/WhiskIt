@@ -2,7 +2,6 @@ document.getElementById("generate").addEventListener("click", async () => {
     const prompt = document.getElementById("prompt").value;
     document.getElementById("output").innerText = "Loading...";
     const API_KEY = document.getElementById("stability").value;
-    // "sk-imUTlgYM4kK4ENUiR9uuJwklvpaNVWUVlHqbQZrmu2kZT554"
 
     try {
         const formData = new FormData();
